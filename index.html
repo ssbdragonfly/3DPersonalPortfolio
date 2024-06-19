@@ -23,28 +23,68 @@
       <a-sky color="#000000"></a-sky>
 
       <a-entity class="bottom-logos">
-        <a-entity id="bottomLogo1" class="logo" position="-1.5 1 -9.9" onclick="navigateTo('mailto:bishtshaurya314@gmail.com')">
+        <a-entity id="bottomLogo1" class="logo" position="-1.5 1 -9.9"
+          onclick="navigateTo('mailto:bishtshaurya314@gmail.com')">
           <a-image src="email.png" width="1" height="1" material="color: white"></a-image>
         </a-entity>
 
-        <a-entity id="bottomLogo2" class="logo" position="0 1 -9.9" onclick="navigateTo('https://github.com/ssbdragonfly')">
+        <a-entity id="bottomLogo2" class="logo" position="0 1 -9.9"
+          onclick="navigateTo('https://github.com/ssbdragonfly')">
           <a-image src="git.png" width="1" height="1" material="color: white"></a-image>
         </a-entity>
 
-        <a-entity id="bottomLogo3" class="logo" position="1.5 1 -9.9" onclick="navigateTo('https://www.linkedin.com/in/shaurya-bisht-6857732b1/')">
+        <a-entity id="bottomLogo3" class="logo" position="1.5 1 -9.9"
+          onclick="navigateTo('https://www.linkedin.com/in/shaurya-bisht-6857732b1/')">
           <a-image src="linkdein.png" width="1" height="1" material="color: white"></a-image>
         </a-entity>
       </a-entity>
+
       <a-entity class="top-logos">
-        <a-entity id="toplogo" class="logo clickable" position="0 5 -9.9" raycaster="objects: .clickable">
+        <a-entity class="logo clickable" position="0 5 -9.9" raycaster="objects: .clickable">
           <a-image src="welcome.png" width="4" height="1" material="color: white"></a-image>
         </a-entity>
         <a-text value="This is my personal portfolio. Look around and click on projects to learn more!" align="center"
           color="white" width="7" position="0 4 -9.9"></a-text>
-        <a-entity id="personal" class="logo" position="0 3 -9.9"
-          onclick="navigateTo('https://github.com/ssbdragonfly/PersonalSite')">
+        <a-entity class="logo" position="0 3 -9.9" onclick="navigateTo('https://github.com/ssbdragonfly/PersonalSite')">
           <a-image src="site.png" width="4" height="1" material="color: white"></a-image>
         </a-entity>
+        <a-entity class="logo clickable" position="0 4 0" raycaster="objects: .clickable" rotation="0 180 0">
+          <a-image src="competition.png" width="4" height="1" material="color: white"></a-image>
+        </a-entity>
+        <a-entity class="logo" position="0 3 0" onclick="navigateTo('https://devpost.com/software/expire-e-tray')"
+          rotation="0 180 0">
+          <a-image src="Expire-E.png" width="2" height="1" material="color: white"></a-image>
+        </a-entity>
+        <a-entity class="logo" position="0 2 0"
+          onclick="navigateTo('https://devpost.com/software/investigator-rladmz/')" rotation="0 180 0">
+          <a-image src="investigator.png" width="2" height="1" material="color: white"></a-image>
+        </a-entity>
+        <a-entity class="logo clickable" position="-5 4 -5" raycaster="objects: .clickable" rotation="0 90 0">
+          <a-image src="other.png" width="4" height="1" material="color: white"></a-image>
+        </a-entity>
+      </a-entity>
+      <a-entity class="logo" position="-5 3 -3" onclick="navigateTo('https://github.com/ssbdragonfly/PersonalSite')"
+        rotation="0 90 0">
+        <a-image src="site.png" width="2" height="1" material="color: white"></a-image>
+      </a-entity>
+      <a-entity class="logo" position="-5 3 -5" onclick="navigateTo('https://github.com/ssbdragonfly/tray-api')"
+        rotation="0 90 0">
+        <a-image src="tray.png" width="2" height="1" material="color: white"></a-image>
+      </a-entity>
+      <a-entity class="logo" position="-5 3 -7" onclick="navigateTo('https://github.com/ssbdragonfly/ChessJava')"
+        rotation="0 90 0">
+        <a-image src="chess.png" width="2" height="1" material="color: white"></a-image>
+      </a-entity>
+      <a-entity class="logo" position="-5 2 -3.5"
+        onclick="navigateTo('https://github.com/ssbdragonfly/Tray-API-Static')" rotation="0 90 0">
+        <a-image src="static.png" width="3" height="1" material="color: white"></a-image>
+      </a-entity>
+      <a-entity class="logo" position="-5 2 -6.5"
+        onclick="navigateTo('https://github.com/ssbdragonfly/BRVolunteerWebsite')" rotation="0 90 0">
+        <a-image src="BR.png" width="3" height="1" material="color: white"></a-image>
+      </a-entity>
+      <a-entity class="logo clickable" position="5 2.5 -5" raycaster="objects: .clickable" rotation="0 -90 0">
+        <a-image src="bio.png" width="3" height="5" material="color: white"></a-image>
       </a-entity>
 
       <a-sphere position="5 5 5" radius="0.2" color="#FFFFFF"></a-sphere>
