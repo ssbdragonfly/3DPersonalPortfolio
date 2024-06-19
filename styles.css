@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.aframe-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.category-label {
+  position: absolute;
+  top: 3.5m;
+  width: 10m;
+  text-align: center;
+  color: white;
+  font-size: 1.5m;
+}
+
+.wall {
+  position: absolute;
+  width: 10m;
+  height: 5m;
+  color: white;
+}
+
+.wall.left {
+  transform: rotateY(90deg) translateZ(-5m);
+}
+
+.wall.right {
+  transform: rotateY(-90deg) translateZ(-5m);
+}
+
+.wall.back {
+  transform: rotateY(180deg) translateZ(-5m);
+}
+
+.wall.front {
+  transform: translateZ(-5m);
+}
+
+.logo-label {
+  position: absolute;
+  top: 0.2m;
+  width: 10m;
+  text-align: center;
+  color: white;
+  font-size: 0.8m;
+}
